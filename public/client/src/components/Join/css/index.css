@@ -1,0 +1,60 @@
+#root .join {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#root .wrapper {
+  width: 272px;
+}
+#root .wrapper .logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#root .wrapper .join-contents .custom-inp .top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#root .wrapper .join-contents .custom-inp .top > .title {
+  font-size: 12px;
+  color: #262626;
+}
+#root .wrapper .join-contents .custom-inp .top .warning {
+  font-size: 10px;
+  color: #262626;
+}
+#root .wrapper .join-contents .custom-inp .inp {
+  margin-top: 4px;
+}
+#root .wrapper .join-contents .custom-inp .inp input {
+  width: 272px;
+  height: 34px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+#root .wrapper .join-contents .custom-inp .inp input::-moz-placeholder {
+  color: #e8e8e8;
+}
+#root .wrapper .join-contents .custom-inp .inp input::placeholder {
+  color: #e8e8e8;
+}
+#root .wrapper .join-contents .password-inp,
+#root .wrapper .join-contents .nickname-inp {
+  margin-top: 28px;
+}
+#root .wrapper .join-contents .join-btn {
+  border: none;
+  margin-top: 28px;
+  width: 100%;
+  height: 34px;
+  background-color: #262626;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
